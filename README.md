@@ -9,13 +9,13 @@ This project demonstrates advanced SQL data analysis on a sample bookstore datas
     source sql/create_database.sql;
     ```
 2. Insert sample data:
-   `sql
- source sql/insert_data.sql;
- `
-   3.Run analysis queries:
-   `sql
- source sql/queries.sql;
- `
+    ```sql
+     source sql/insert_data.sql;
+    ```
+    3.Run analysis queries:
+    ```sql
+    source sql/queries.sql;
+    ```
 
 ## Files
 
