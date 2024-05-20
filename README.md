@@ -8,3 +8,17 @@ This project demonstrates advanced SQL data analysis on a sample bookstore datas
     ```sql
     source sql/create_database.sql;
     ```
+2. Insert sample data:
+   `sql
+ source sql/insert_data.sql;
+ `
+   3.Run analysis queries:
+   `sql
+ source sql/queries.sql;
+ `
+
+## Files
+
+-   'create_database.sql': Script to create the bookstore database and tables.
+-   'insert_data.sql': Script to insert sample data into the tables.
+-   'queries.sql': Script to perform advanced data analysis queries including joins, subqueries, and window functions.
